@@ -5,7 +5,7 @@ const app = express()
 app.get('/', (req, res) => {
     res.json({
         success: true,
-        message: "Hello from the nodeddddd-app server. update"
+        message: "Hello from the node-app server. update and hello world"
     })
 })
 
